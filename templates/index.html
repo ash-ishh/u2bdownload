@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title> UTubeDownload </title>
+        <meta charset="UTF-8">
+    </head>
+    
+    <body>
+        <center> <h2 align="center" > UTubeDownload </h2> </center>
+        <form action="{{ url_for('links') }}" method="post">
+            Youtube Link : <input type="text" id="utubelink" name="utubelink" size=45>
+            <br />
+            <br />
+            <input type="submit" value="Get Download Links" >
+        </form>
+
+        <br />
+        <br />
+        480p : <input type="text" name="480p" size=45 value={{ link480 }}>
+        <br />
+        <br />
+        720p : <input type="text" name="720p" size=45 value={{ link720 }}>
+        <br />
+        <br />
+        <br />
+    </body>
+</html>
