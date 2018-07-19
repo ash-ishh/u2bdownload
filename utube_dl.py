@@ -2,7 +2,7 @@ from youtube_dl import YoutubeDL
 
 def download(url):
     links = []
-    formats = [134,136]
+    formats = [18,22]
     try:
         for i in formats:
             with YoutubeDL({'format':str(i)}) as ydl:
@@ -15,3 +15,6 @@ def download(url):
 if __name__ == "__main__":
     url = input()
     links = download(url)
+    for link in links:
+        print(link)
+        print("\n"*3)
