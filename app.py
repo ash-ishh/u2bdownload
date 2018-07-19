@@ -1,5 +1,5 @@
 from flask import Flask,render_template,request
-import utube
+import utube_dl
 
 app = Flask(__name__)
 
@@ -14,7 +14,7 @@ def links():
     link480 = "yo"
     link720 = "yo"
     url = request.form['utubelink']
-    links = utube.download(url)
+    links = utube_dl.download(url)
     if(len(links) == 1):
         link480 = links[0]
     elif(len(links) == 2 or len(links) > 2):
