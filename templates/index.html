@@ -1,28 +1,44 @@
-<html>
-    <head>
-        <title> u2bDownload </title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
-    
-    <body>
-        <center> <h2 align="center" > u2bDownload </h2> </center>
-        <form action="{{ url_for('links') }}" method="post">
-            Youtube Link : <input type="text" id="utubelink" name="utubelink" size=45>
-            <br />
-            <br />
-            <input type="submit" value="Get Download Links" >
-        </form>
+{% extends "bootstrap/base.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
 
+{% block title %}u2bdownload{% endblock %}
+{% block head %}
+    {{ super() }}
+{% endblock %}
+
+{% block metas %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+{% endblock %}
+
+{% block body %}
+<div class="container">
+    <center> <h2 align="center" > u2bDownload </h2> </center>
+    {% for message in get_flashed_messages() %}
+    <div class="alert alert-warning">
+        <button type="button" class="close" data-dismiss="alert">&times;</button>
+        {{ message }}
+    </div>
+    {% endfor %}
+    {{ wtf.quick_form(form) }}
+    <br />
+    <br />
+    {% if name is not none %}
+        {{ name }}
         <br />
         <br />
+    {% endif %}
+    {% if link480 is not none %}
         480p : <input type="text" name="480p" size=45 value={{ link480 }}>
         <br />
         <br />
+    {% endif %}
+    {% if link720 is not none %}
         720p : <input type="text" name="720p" size=45 value={{ link720 }}>
         <br />
         <br />
         <br />
-        <a href="https://twitter.com/ash_ishh_">@ash_ishh_</a>
-    </body>
-</html>
+    {% endif %}
+    <a href="https://twitter.com/ash_ishh_">@ash_ishh_</a>
+</div>
+{% endblock %}

@@ -1,27 +1,43 @@
-from flask import Flask,render_template,request
+from flask import Flask,render_template,redirect,session,url_for,flash
+from flask_bootstrap import Bootstrap
+from flask_wtf import Form
+from wtforms import StringField,SubmitField
+from wtforms.validators import Required,URL
 import utube_dl
 
 app = Flask(__name__)
+app.config['SECRET_KEY'] = "ayolyricalmiraclespiritualindividualcriminalsubliminalinyourswimmingp00l"
+bootstrap = Bootstrap(app)
 
-@app.route('/')
+class LinkForm(Form):
+    u2blink = StringField("Youtube Link: ",validators=[Required(),URL()])
+    submit = SubmitField("Get Download Links")
+
+@app.route('/',methods=["GET","POST"])
 def index():
-    link480 = ""
-    link720 = ""
-    return render_template("index.html",link480=link480,link720=link720)
+    form = LinkForm()
+    if(form.validate_on_submit()):
+        session["url"] = form.u2blink.data
+        name, links = utube_dl.download(session.get("url"))
+        session["name"] = name
+        session["link480"] = None
+        session["link720"] = None
 
-@app.route('/links',methods=["POST","GET"])
-def links():
-    link480 = "yo"
-    link720 = "yo"
-    url = request.form['utubelink']
-    links = utube_dl.download(url)
-    if(len(links) == 1):
-        link480 = links[0]
-    elif(len(links) == 2 or len(links) > 2):
-        link480 = links[1]
-        link720 = links[0]
-    return render_template("index.html",link480=link480,link720=link720)
+        for f,link in links:
+            if f == 18:
+                session["link480"] = link
+            if f == 22:
+                session["link720"] = link
+        if session["link480"] is None and session["link720"] is None:
+            flash("Sorry :( cannot generate links of this url..")
+        return redirect(url_for("index"))
+    return render_template("index.html",form=form,link480=session.get("link480"),link720=session.get("link720"),name=session.get("name"))
+
+
+@app.errorhandler(404)
+def page_not_found(e):
+    return render_template("404.html"),404
 
 if __name__ == "__main__":
-    app.debug = True
+    #app.debug = True
     app.run()
