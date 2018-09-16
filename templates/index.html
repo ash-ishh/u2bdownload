@@ -8,7 +8,6 @@
 	<script src="/static/js/pace.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script>
 	<link href="/static/css/pace-theme-ball.css" rel="stylesheet">
-	<link href="/static/css/style.css" rel="stylesheet">
 {% endblock %}
 
 {% block metas %}
@@ -27,7 +26,6 @@
     {% endfor %}
     {{ wtf.quick_form(form) }}
     <br />
-    <br />
     {% if name is not none %}
         {{ name }}
         <br />
@@ -35,10 +33,10 @@
     {% endif %}
     {% if link480 is not none %}
         480p : <input id="ip1" type="text" name="480p" size=45 value={{ link480 }}>
-        <button id="btn1" class="btn" data-clipboard-target="#ip1">
+        <button id="btn1" class="btn" data-clipboard-target="#ip1" style="margin:5px">
             <img src="/static/assets/clippy.svg" alt="Copy" height="17" width="17">
         </button>
-        <button id="dwnld-btn1" onClick="download(ip1)" class="btn">
+        <button id="dwnld-btn1" onClick="download(ip1)" class="btn" style="margin:5px">
             <img src="/static/assets/download.png" alt="Copy" height="17" width="17">
         </button>
         <br />
@@ -46,10 +44,10 @@
     {% endif %}
     {% if link720 is not none %}
         720p : <input id="ip2" type="text" name="720p" size=45 value={{ link720 }}>
-        <button id="btn2" class="btn" data-clipboard-target="#ip2">
+        <button id="btn2" class="btn" data-clipboard-target="#ip2" style="margin:5px">
             <img src="/static/assets/clippy.svg" alt="Copy" height="17" width="17">
         </button>
-        <button id="dwnld-btn2" onClick="download(ip2)" class="btn">
+        <button id="dwnld-btn2" onClick="download(ip2)" class="btn" style="margin:5px">
             <img src="/static/assets/download.png" alt="Copy" height="17" width="17">
         </button>
         <br />
