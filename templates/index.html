@@ -66,8 +66,8 @@
         var clipboard = new ClipboardJS('.btn');
         clipboard.on('success', function(e) {
             var property = e.trigger;
-            console.log('Copied');
             property.style.backgroundColor = getRandomColor(); 
+            e.clearSelection();
         });
 
         clipboard.on('error', function(e) {
