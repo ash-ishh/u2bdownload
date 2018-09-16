@@ -7,6 +7,7 @@ import utube_dl
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = "ayolyricalmiraclespiritualindividualcriminalsubliminalinyourswimmingp00l"
+app.config['TEMPLATES_AUTO_RELOAD'] = True
 bootstrap = Bootstrap(app)
 
 class LinkForm(Form):

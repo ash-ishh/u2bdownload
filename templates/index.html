@@ -6,7 +6,9 @@
     {{ super() }}
 	<meta charset="utf-8">
 	<script src="/static/js/pace.min.js"></script>
-	<link href="/static/css/pace-theme-minimal-indicator.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script>
+	<link href="/static/css/pace-theme-ball.css" rel="stylesheet">
+	<link href="/static/css/style.css" rel="stylesheet">
 {% endblock %}
 
 {% block metas %}
@@ -32,16 +34,53 @@
         <br />
     {% endif %}
     {% if link480 is not none %}
-        480p : <input type="text" name="480p" size=45 value={{ link480 }}>
+        480p : <input id="ip1" type="text" name="480p" size=45 value={{ link480 }}>
+        <button id="btn1" class="btn" data-clipboard-target="#ip1">
+            <img src="/static/assets/clippy.svg" alt="Copy" height="17" width="17">
+        </button>
+        <button id="dwnld-btn1" onClick="download(ip1)" class="btn">
+            <img src="/static/assets/download.png" alt="Copy" height="17" width="17">
+        </button>
         <br />
         <br />
     {% endif %}
     {% if link720 is not none %}
-        720p : <input type="text" name="720p" size=45 value={{ link720 }}>
+        720p : <input id="ip2" type="text" name="720p" size=45 value={{ link720 }}>
+        <button id="btn2" class="btn" data-clipboard-target="#ip2">
+            <img src="/static/assets/clippy.svg" alt="Copy" height="17" width="17">
+        </button>
+        <button id="dwnld-btn2" onClick="download(ip2)" class="btn">
+            <img src="/static/assets/download.png" alt="Copy" height="17" width="17">
+        </button>
         <br />
         <br />
         <br />
     {% endif %}
     <a href="https://twitter.com/ash_ishh_?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @ash_ishh_</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+    <script>
+        function getRandomColor() {
+            myArray = ["#B0E0E6","#87CEFA","#6495ED","#7FFFD4"]
+            var rand = myArray[Math.floor(Math.random() * myArray.length)];
+            return rand
+        }
+
+        var clipboard = new ClipboardJS('.btn');
+        clipboard.on('success', function(e) {
+            var property = e.trigger;
+            console.log('Copied');
+            property.style.backgroundColor = getRandomColor(); 
+        });
+
+        clipboard.on('error', function(e) {
+            console.log('Error!');
+        });
+
+        function download(id){
+            var download_link = id.value;
+            console.log(download_link);
+            window.location.href = download_link;
+        }
+    </script>
 </div>
 {% endblock %}
