@@ -1,1 +1,4 @@
-utube.py
+__pycache__
+pyvenv.cfg
+venv
+.env

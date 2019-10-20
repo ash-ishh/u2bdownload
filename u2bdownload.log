@@ -1,0 +1,237 @@
+2019-10-20 12:30:09,706 — main — INFO — Request from: 127.0.0.1
+2019-10-20 12:30:09,716 — u2bdownload — INFO — https://www.youtube.com/watch?v=YkgkThdzX-8
+2019-10-20 12:30:12,373 — u2bdownload — ERROR — [0;31mERROR:[0m requested format not available
+2019-10-20 12:30:12,391 — main — INFO — Request from: 127.0.0.1
+2019-10-20 12:30:12,393 — main — INFO — served
+2019-10-20 12:30:41,836 — main — INFO — Request from: 127.0.0.1
+2019-10-20 12:30:41,844 — u2bdownload — INFO — https://www.youtube.com/watch?v=YkgkThdzX-8
+2019-10-20 12:30:49,436 — u2bdownload — ERROR — [0;31mERROR:[0m requested format not available
+2019-10-20 12:30:49,457 — main — INFO — Request from: 127.0.0.1
+2019-10-20 12:30:49,457 — main — INFO — served
+2019-10-20 12:31:50,543 — main — INFO — Request from: 127.0.0.1
+2019-10-20 12:31:50,551 — u2bdownload — INFO — https://www.youtube.com/watch?v=YkgkThdzX-8
+2019-10-20 12:31:53,301 — u2bdownload — ERROR — [0;31mERROR:[0m requested format not available
+2019-10-20 12:31:53,317 — main — INFO — Request from: 127.0.0.1
+2019-10-20 12:31:53,318 — main — INFO — served
+2019-10-20 12:32:54,220 — main — INFO — Request from: 127.0.0.1
+2019-10-20 12:32:54,229 — u2bdownload — INFO — https://www.youtube.com/watch?v=YkgkThdzX-8
+2019-10-20 12:33:15,034 — main — INFO — Request from: 127.0.0.1
+2019-10-20 12:33:15,041 — u2bdownload — INFO — https://www.youtube.com/watch?v=YkgkThdzX-8
+2019-10-20 12:33:28,034 — u2bdownload — ERROR — [0;31mERROR:[0m requested format not available
+2019-10-20 12:33:28,059 — main — INFO — Request from: 127.0.0.1
+2019-10-20 12:33:28,061 — main — INFO — served
+2019-10-20 13:03:45,850 — main — INFO — Request from: 127.0.0.1
+2019-10-20 13:04:15,522 — main — INFO — Request from: 127.0.0.1
+2019-10-20 13:08:47,236 — main — INFO — Request from: 127.0.0.1
+2019-10-20 13:09:19,857 — main — INFO — Request from: 127.0.0.1
+2019-10-20 13:09:19,861 — u2bdownload — INFO — https://www.youtube.com/watch?v=YkgkThdzX-8
+2019-10-20 13:09:20,608 — u2bdownload — ERROR — [0;31mERROR:[0m Unable to download webpage: <urlopen error [Errno -3] Temporary failure in name resolution> (caused by URLError(gaierror(-3, 'Temporary failure in name resolution'),))
+2019-10-20 13:09:20,636 — u2bdownload — ERROR — [0;31mERROR:[0m Unable to download webpage: <urlopen error [Errno -3] Temporary failure in name resolution> (caused by URLError(gaierror(-3, 'Temporary failure in name resolution'),))
+2019-10-20 13:09:20,652 — main — INFO — Request from: 127.0.0.1
+2019-10-20 13:10:04,340 — main — INFO — Request from: 127.0.0.1
+2019-10-20 13:10:04,346 — u2bdownload — INFO — https://www.youtube.com/watch?v=YkgkThdzX-8
+2019-10-20 13:10:04,375 — u2bdownload — ERROR — [0;31mERROR:[0m Unable to download webpage: <urlopen error [Errno -3] Temporary failure in name resolution> (caused by URLError(gaierror(-3, 'Temporary failure in name resolution'),))
+2019-10-20 13:10:04,405 — u2bdownload — ERROR — [0;31mERROR:[0m Unable to download webpage: <urlopen error [Errno -3] Temporary failure in name resolution> (caused by URLError(gaierror(-3, 'Temporary failure in name resolution'),))
+2019-10-20 13:10:04,426 — main — INFO — Request from: 127.0.0.1
+2019-10-20 13:11:40,743 — main — INFO — Request from: 127.0.0.1
+2019-10-20 13:11:40,743 — u2bdownload — INFO — https://www.youtube.com/watch?v=YkgkThdzX-8
+2019-10-20 13:11:41,471 — u2bdownload — ERROR — [0;31mERROR:[0m Unable to download webpage: <urlopen error [Errno -3] Temporary failure in name resolution> (caused by URLError(gaierror(-3, 'Temporary failure in name resolution'),))
+2019-10-20 13:11:41,498 — u2bdownload — ERROR — [0;31mERROR:[0m Unable to download webpage: <urlopen error [Errno -3] Temporary failure in name resolution> (caused by URLError(gaierror(-3, 'Temporary failure in name resolution'),))
+2019-10-20 13:12:08,461 — main — INFO — Request from: 127.0.0.1
+2019-10-20 13:12:08,462 — u2bdownload — INFO — https://www.youtube.com/watch?v=YkgkThdzX-8
+2019-10-20 13:12:09,186 — u2bdownload — ERROR — [0;31mERROR:[0m Unable to download webpage: <urlopen error [Errno -3] Temporary failure in name resolution> (caused by URLError(gaierror(-3, 'Temporary failure in name resolution'),))
+2019-10-20 13:12:09,213 — u2bdownload — ERROR — [0;31mERROR:[0m Unable to download webpage: <urlopen error [Errno -3] Temporary failure in name resolution> (caused by URLError(gaierror(-3, 'Temporary failure in name resolution'),))
+2019-10-20 13:12:29,915 — main — INFO — Request from: 127.0.0.1
+2019-10-20 13:12:29,917 — u2bdownload — INFO — https://www.youtube.com/watch?v=YkgkThdzX-8
+2019-10-20 13:12:30,684 — u2bdownload — ERROR — [0;31mERROR:[0m Unable to download webpage: <urlopen error [Errno -3] Temporary failure in name resolution> (caused by URLError(gaierror(-3, 'Temporary failure in name resolution'),))
+2019-10-20 13:12:30,711 — u2bdownload — ERROR — [0;31mERROR:[0m Unable to download webpage: <urlopen error [Errno -3] Temporary failure in name resolution> (caused by URLError(gaierror(-3, 'Temporary failure in name resolution'),))
+2019-10-20 13:16:26,726 — main — INFO — Request from: 127.0.0.1
+2019-10-20 13:16:26,727 — u2bdownload — INFO — https://www.youtube.com/watch?v=YkgkThdzX-8
+2019-10-20 13:16:27,478 — u2bdownload — ERROR — [0;31mERROR:[0m Unable to download webpage: <urlopen error [Errno -3] Temporary failure in name resolution> (caused by URLError(gaierror(-3, 'Temporary failure in name resolution'),))
+2019-10-20 13:16:27,507 — u2bdownload — ERROR — [0;31mERROR:[0m Unable to download webpage: <urlopen error [Errno -3] Temporary failure in name resolution> (caused by URLError(gaierror(-3, 'Temporary failure in name resolution'),))
+2019-10-20 13:17:12,614 — main — INFO — Request from: 127.0.0.1
+2019-10-20 13:17:12,616 — u2bdownload — INFO — https://www.youtube.com/watch?v=YkgkThdzX-8
+2019-10-20 13:17:13,352 — u2bdownload — ERROR — [0;31mERROR:[0m Unable to download webpage: <urlopen error [Errno -3] Temporary failure in name resolution> (caused by URLError(gaierror(-3, 'Temporary failure in name resolution'),))
+2019-10-20 13:17:13,375 — u2bdownload — ERROR — [0;31mERROR:[0m Unable to download webpage: <urlopen error [Errno -3] Temporary failure in name resolution> (caused by URLError(gaierror(-3, 'Temporary failure in name resolution'),))
+2019-10-20 13:17:36,725 — main — INFO — Request from: 127.0.0.1
+2019-10-20 13:17:36,728 — u2bdownload — INFO — https://www.youtube.com/watch?v=YkgkThdzX-8
+2019-10-20 13:17:36,755 — u2bdownload — ERROR — [0;31mERROR:[0m Unable to download webpage: <urlopen error [Errno -3] Temporary failure in name resolution> (caused by URLError(gaierror(-3, 'Temporary failure in name resolution'),))
+2019-10-20 13:17:36,787 — u2bdownload — ERROR — [0;31mERROR:[0m Unable to download webpage: <urlopen error [Errno -3] Temporary failure in name resolution> (caused by URLError(gaierror(-3, 'Temporary failure in name resolution'),))
+2019-10-20 13:43:12,360 — main — INFO — Request from: 127.0.0.1
+2019-10-20 13:43:12,360 — u2bdownload — INFO — https://www.youtube.com/watch?v=YkgkThdzX-8
+2019-10-20 13:43:14,727 — u2bdownload — ERROR — [0;31mERROR:[0m requested format not available
+2019-10-20 13:43:16,049 — u2bdownload — ERROR — [0;31mERROR:[0m requested format not available
+2019-10-20 13:44:31,017 — main — INFO — Request from: 127.0.0.1
+2019-10-20 13:44:31,018 — u2bdownload — INFO — https://www.youtube.com/watch?v=YkgkThdzX-8
+2019-10-20 13:44:33,467 — u2bdownload — ERROR — [0;31mERROR:[0m requested format not available
+2019-10-20 13:44:34,819 — u2bdownload — ERROR — [0;31mERROR:[0m requested format not available
+2019-10-20 13:44:59,859 — main — INFO — Request from: 127.0.0.1
+2019-10-20 13:44:59,860 — u2bdownload — INFO — https://www.youtube.com/watch?v=YkgkThdzX-8
+2019-10-20 13:45:02,878 — u2bdownload — ERROR — [0;31mERROR:[0m requested format not available
+2019-10-20 13:45:04,187 — u2bdownload — ERROR — [0;31mERROR:[0m requested format not available
+2019-10-20 13:45:48,326 — main — INFO — Request from: 127.0.0.1
+2019-10-20 13:45:48,326 — u2bdownload — INFO — https://www.youtube.com/watch?v=YkgkThdzX-8
+2019-10-20 13:45:51,176 — u2bdownload — ERROR — [0;31mERROR:[0m requested format not available
+2019-10-20 13:49:37,051 — main — INFO — Request from: 127.0.0.1
+2019-10-20 13:49:37,053 — u2bdownload — INFO — https://www.youtube.com/watch?v=YkgkThdzX-8
+2019-10-20 13:49:39,406 — u2bdownload — ERROR — [0;31mERROR:[0m requested format not available
+2019-10-20 13:51:17,154 — main — INFO — Request from: 127.0.0.1
+2019-10-20 13:51:17,156 — u2bdownload — INFO — https://www.youtube.com/watch?v=YkgkThdzX-8
+2019-10-20 13:51:19,560 — u2bdownload — ERROR — [0;31mERROR:[0m requested format not available
+2019-10-20 13:51:53,456 — main — INFO — Request from: 127.0.0.1
+2019-10-20 13:51:53,458 — u2bdownload — INFO — https://www.youtube.com/watch?v=YkgkThdzX-8
+2019-10-20 13:51:55,628 — u2bdownload — ERROR — [0;31mERROR:[0m requested format not available
+2019-10-20 13:54:28,085 — main — INFO — Request from: 127.0.0.1
+2019-10-20 13:54:28,086 — u2bdownload — INFO — https://www.youtube.com/watch?v=YkgkThdzX-8
+2019-10-20 13:54:30,575 — u2bdownload — ERROR — [0;31mERROR:[0m requested format not available
+2019-10-20 13:54:33,726 — main — INFO — Request from: 127.0.0.1
+2019-10-20 13:54:33,726 — u2bdownload — INFO — https://www.youtube.com/watch?v=YkgkThdzX-8
+2019-10-20 13:54:35,240 — u2bdownload — ERROR — [0;31mERROR:[0m requested format not available
+2019-10-20 13:55:18,250 — main — INFO — Request from: 127.0.0.1
+2019-10-20 13:55:18,251 — u2bdownload — INFO — https://www.youtube.com/watch?v=YkgkThdzX-8
+2019-10-20 13:55:19,819 — u2bdownload — ERROR — [0;31mERROR:[0m requested format not available
+2019-10-20 13:56:20,608 — main — INFO — Request from: 127.0.0.1
+2019-10-20 13:56:20,609 — u2bdownload — INFO — https://www.youtube.com/watch?v=YkgkThdzX-8
+2019-10-20 13:56:21,958 — u2bdownload — ERROR — [0;31mERROR:[0m requested format not available
+2019-10-20 13:56:57,922 — main — INFO — Request from: 127.0.0.1
+2019-10-20 13:56:57,924 — u2bdownload — INFO — https://www.youtube.com/watch?v=YkgkThdzX-8
+2019-10-20 13:56:59,402 — u2bdownload — ERROR — [0;31mERROR:[0m requested format not available
+2019-10-20 13:58:39,497 — main — INFO — Request from: 127.0.0.1
+2019-10-20 13:58:39,497 — u2bdownload — INFO — https://www.youtube.com/watch?v=YkgkThdzX-8
+2019-10-20 13:58:42,382 — u2bdownload — ERROR — [0;31mERROR:[0m requested format not available
+2019-10-20 13:58:48,623 — main — INFO — Request from: 127.0.0.1
+2019-10-20 13:58:48,625 — u2bdownload — INFO — https://www.youtube.com/watch?v=kYv7aA8amzk
+2019-10-20 13:58:50,920 — u2bdownload — ERROR — [0;31mERROR:[0m requested format not available
+2019-10-20 14:00:01,701 — main — INFO — Request from: 127.0.0.1
+2019-10-20 14:00:01,701 — u2bdownload — INFO — https://www.youtube.com/watch?v=kYv7aA8amzk
+2019-10-20 14:00:03,886 — u2bdownload — ERROR — [0;31mERROR:[0m requested format not available
+2019-10-20 14:00:15,032 — main — INFO — Request from: 127.0.0.1
+2019-10-20 14:00:15,033 — u2bdownload — INFO — https://www.youtube.com/watch?v=kYv7aA8amzk
+2019-10-20 14:00:17,101 — u2bdownload — ERROR — [0;31mERROR:[0m requested format not available
+2019-10-20 14:01:10,058 — main — INFO — Request from: 127.0.0.1
+2019-10-20 14:01:10,058 — u2bdownload — INFO — https://www.youtube.com/watch?v=kYv7aA8amzk
+2019-10-20 14:01:12,209 — u2bdownload — ERROR — [0;31mERROR:[0m requested format not available
+2019-10-20 14:01:33,770 — main — INFO — Request from: 127.0.0.1
+2019-10-20 14:01:33,771 — u2bdownload — INFO — https://www.youtube.com/watch?v=YkgkThdzX-8
+2019-10-20 14:01:35,211 — u2bdownload — ERROR — [0;31mERROR:[0m requested format not available
+2019-10-20 14:16:23,921 — main — INFO — Request from: 127.0.0.1
+2019-10-20 14:16:23,922 — u2bdownload — INFO — https://www.youtube.com/watch?v=YkgkThdzX-88
+2019-10-20 14:16:31,513 — u2bdownload — ERROR — [0;31mERROR:[0m requested format not available
+2019-10-20 14:21:02,153 — main — INFO — Request from: 127.0.0.1
+2019-10-20 14:21:02,153 — u2bdownload — INFO — https://www.youtube.com/watch?v=YkgkThdzX-88
+2019-10-20 14:21:06,297 — u2bdownload — ERROR — [0;31mERROR:[0m requested format not available
+2019-10-20 14:23:08,672 — main — INFO — Request from: 127.0.0.1
+2019-10-20 14:23:08,674 — u2bdownload — INFO — https://www.youtube.com/watch?v=YkgkThdzX-88
+2019-10-20 14:23:10,875 — u2bdownload — ERROR — [0;31mERROR:[0m requested format not available
+2019-10-20 14:24:22,151 — main — INFO — Request from: 127.0.0.1
+2019-10-20 14:24:22,152 — u2bdownload — INFO — https://www.youtube.com/watch?v=oCBDl58lBoU
+2019-10-20 14:24:24,694 — u2bdownload — ERROR — [0;31mERROR:[0m requested format not available
+2019-10-20 14:28:04,192 — main — INFO — Request from: 127.0.0.1
+2019-10-20 14:28:04,192 — u2bdownload — INFO — https://www.youtube.com/watch?v=oCBDl58lBoU
+2019-10-20 14:28:06,696 — u2bdownload — ERROR — [0;31mERROR:[0m requested format not available
+2019-10-20 14:28:06,745 — u2bdownload — ERROR — [0;31mERROR:[0m requested format not available
+2019-10-20 14:31:11,790 — main — INFO — Request from: 127.0.0.1
+2019-10-20 14:31:11,790 — u2bdownload — INFO — https://www.youtube.com/watch?v=YkgkThdzX-8
+2019-10-20 14:31:14,144 — u2bdownload — ERROR — [0;31mERROR:[0m requested format not available
+2019-10-20 14:31:19,208 — u2bdownload — ERROR — [0;31mERROR:[0m requested format not available
+2019-10-20 14:31:57,074 — main — INFO — Request from: 127.0.0.1
+2019-10-20 14:31:57,078 — u2bdownload — INFO — https://www.youtube.com/watch?v=YkgkThdzX-8
+2019-10-20 14:31:59,543 — u2bdownload — ERROR — [0;31mERROR:[0m requested format not available
+2019-10-20 14:31:59,597 — u2bdownload — ERROR — [0;31mERROR:[0m requested format not available
+2019-10-20 14:32:19,362 — main — INFO — Request from: 127.0.0.1
+2019-10-20 14:32:19,363 — u2bdownload — INFO — https://www.youtube.com/watch?v=YkgkThdzX-8
+2019-10-20 14:32:21,681 — u2bdownload — ERROR — [0;31mERROR:[0m requested format not available
+2019-10-20 14:32:21,739 — u2bdownload — ERROR — [0;31mERROR:[0m requested format not available
+2019-10-20 14:33:19,634 — main — INFO — Request from: 127.0.0.1
+2019-10-20 14:33:19,635 — u2bdownload — INFO — https://www.youtube.com/watch?v=YkgkThdzX-8
+2019-10-20 14:33:26,182 — u2bdownload — ERROR — [0;31mERROR:[0m requested format not available
+2019-10-20 14:33:26,242 — u2bdownload — ERROR — [0;31mERROR:[0m requested format not available
+2019-10-20 14:34:02,940 — main — INFO — Request from: 127.0.0.1
+2019-10-20 14:34:02,940 — u2bdownload — INFO — https://www.youtube.com/watch?v=YkgkThdzX-8
+2019-10-20 14:34:10,200 — u2bdownload — ERROR — [0;31mERROR:[0m requested format not available
+2019-10-20 14:34:10,264 — u2bdownload — ERROR — [0;31mERROR:[0m requested format not available
+2019-10-20 14:34:38,574 — main — INFO — Request from: 127.0.0.1
+2019-10-20 14:34:38,574 — u2bdownload — INFO — https://www.youtube.com/watch?v=YkgkThdzX-8
+2019-10-20 14:34:39,981 — u2bdownload — ERROR — [0;31mERROR:[0m requested format not available
+2019-10-20 14:34:40,039 — u2bdownload — ERROR — [0;31mERROR:[0m requested format not available
+2019-10-20 14:34:45,310 — main — INFO — Request from: 127.0.0.1
+2019-10-20 14:34:45,311 — u2bdownload — INFO — https://www.youtube.com/watch?v=YkgkThdzX-8
+2019-10-20 14:34:47,608 — u2bdownload — ERROR — [0;31mERROR:[0m requested format not available
+2019-10-20 14:34:47,675 — u2bdownload — ERROR — [0;31mERROR:[0m requested format not available
+2019-10-20 14:35:56,005 — main — INFO — Request from: 127.0.0.1
+2019-10-20 14:35:56,005 — u2bdownload — INFO — https://www.youtube.com/watch?v=YkgkThdzX-88
+2019-10-20 14:35:57,390 — u2bdownload — ERROR — [0;31mERROR:[0m requested format not available
+2019-10-20 14:35:57,444 — u2bdownload — ERROR — [0;31mERROR:[0m requested format not available
+2019-10-20 14:36:02,185 — main — INFO — Request from: 127.0.0.1
+2019-10-20 14:36:02,186 — u2bdownload — INFO — https://www.youtube.com/watch?v=YkgkThdzX-88jlk
+2019-10-20 14:36:03,538 — u2bdownload — ERROR — [0;31mERROR:[0m requested format not available
+2019-10-20 14:36:03,597 — u2bdownload — ERROR — [0;31mERROR:[0m requested format not available
+2019-10-20 14:36:08,203 — main — INFO — Request from: 127.0.0.1
+2019-10-20 14:36:08,204 — u2bdownload — INFO — https://www.youtube.com/watch?v=YkgkThdzX
+2019-10-20 14:36:08,234 — u2bdownload — ERROR — [0;31mERROR:[0m Incomplete YouTube ID YkgkThdzX. URL https://www.youtube.com/watch?v=YkgkThdzX looks truncated.
+2019-10-20 14:36:08,251 — u2bdownload — ERROR — [0;31mERROR:[0m Incomplete YouTube ID YkgkThdzX. URL https://www.youtube.com/watch?v=YkgkThdzX looks truncated.
+2019-10-20 14:36:08,271 — u2bdownload — ERROR — [0;31mERROR:[0m Incomplete YouTube ID YkgkThdzX. URL https://www.youtube.com/watch?v=YkgkThdzX looks truncated.
+2019-10-20 14:36:18,963 — main — INFO — Request from: 127.0.0.1
+2019-10-20 14:36:18,963 — u2bdownload — INFO — https://www.youtube.com/watch?v=YkgkThdzX
+2019-10-20 14:36:18,987 — u2bdownload — ERROR — [0;31mERROR:[0m Incomplete YouTube ID YkgkThdzX. URL https://www.youtube.com/watch?v=YkgkThdzX looks truncated.
+2019-10-20 14:36:19,009 — u2bdownload — ERROR — [0;31mERROR:[0m Incomplete YouTube ID YkgkThdzX. URL https://www.youtube.com/watch?v=YkgkThdzX looks truncated.
+2019-10-20 14:36:19,037 — u2bdownload — ERROR — [0;31mERROR:[0m Incomplete YouTube ID YkgkThdzX. URL https://www.youtube.com/watch?v=YkgkThdzX looks truncated.
+2019-10-20 14:36:22,636 — main — INFO — Request from: 127.0.0.1
+2019-10-20 14:36:22,636 — u2bdownload — INFO — https://www.youtube.com/watch?v=YkgkThdzX
+2019-10-20 14:36:22,657 — u2bdownload — ERROR — [0;31mERROR:[0m Incomplete YouTube ID YkgkThdzX. URL https://www.youtube.com/watch?v=YkgkThdzX looks truncated.
+2019-10-20 14:36:22,683 — u2bdownload — ERROR — [0;31mERROR:[0m Incomplete YouTube ID YkgkThdzX. URL https://www.youtube.com/watch?v=YkgkThdzX looks truncated.
+2019-10-20 14:36:22,721 — u2bdownload — ERROR — [0;31mERROR:[0m Incomplete YouTube ID YkgkThdzX. URL https://www.youtube.com/watch?v=YkgkThdzX looks truncated.
+2019-10-20 14:36:29,647 — main — INFO — Request from: 127.0.0.1
+2019-10-20 14:36:29,648 — u2bdownload — INFO — https://www.youtube.com/watch?v=YkgkThdzX-88
+2019-10-20 14:36:30,956 — u2bdownload — ERROR — [0;31mERROR:[0m requested format not available
+2019-10-20 14:36:31,015 — u2bdownload — ERROR — [0;31mERROR:[0m requested format not available
+2019-10-20 14:37:55,848 — main — INFO — Request from: 127.0.0.1
+2019-10-20 14:37:55,849 — u2bdownload — INFO — https://www.youtube.com/watch?v=YkgkThdzX-88
+2019-10-20 14:37:58,152 — u2bdownload — ERROR — format id: 136
+2019-10-20 14:37:58,152 — u2bdownload — ERROR — [0;31mERROR:[0m requested format not available
+2019-10-20 14:37:58,223 — u2bdownload — ERROR — format id: 137
+2019-10-20 14:37:58,223 — u2bdownload — ERROR — [0;31mERROR:[0m requested format not available
+2019-10-20 14:41:45,832 — main — INFO — Request from: 127.0.0.1
+2019-10-20 14:41:45,832 — u2bdownload — INFO — https://www.youtube.com/watch?v=YkgkThdzX-88
+2019-10-20 14:41:48,047 — u2bdownload — ERROR — format id: 18
+2019-10-20 14:41:48,047 — u2bdownload — ERROR — 'int' object has no attribute 'encode'
+2019-10-20 14:41:49,520 — u2bdownload — ERROR — format id: 136
+2019-10-20 14:41:49,522 — u2bdownload — ERROR — 'int' object has no attribute 'encode'
+2019-10-20 14:41:50,816 — u2bdownload — ERROR — format id: 137
+2019-10-20 14:41:50,816 — u2bdownload — ERROR — 'int' object has no attribute 'encode'
+2019-10-20 14:42:14,306 — main — INFO — Request from: 127.0.0.1
+2019-10-20 14:42:14,307 — u2bdownload — INFO — https://www.youtube.com/watch?v=YkgkThdzX-88
+2019-10-20 14:42:16,425 — u2bdownload — ERROR — format id: 18
+2019-10-20 14:42:16,426 — u2bdownload — ERROR — 'int' object has no attribute 'encode'
+2019-10-20 14:42:20,525 — main — INFO — Request from: 127.0.0.1
+2019-10-20 14:42:20,526 — u2bdownload — INFO — https://www.youtube.com/watch?v=YkgkThdzX-88
+2019-10-20 14:42:22,862 — u2bdownload — ERROR — format id: 18
+2019-10-20 14:42:22,862 — u2bdownload — ERROR — 'int' object has no attribute 'encode'
+2019-10-20 14:42:24,208 — u2bdownload — ERROR — format id: 136
+2019-10-20 14:42:24,208 — u2bdownload — ERROR — 'int' object has no attribute 'encode'
+2019-10-20 14:42:25,435 — u2bdownload — ERROR — format id: 137
+2019-10-20 14:42:25,435 — u2bdownload — ERROR — 'int' object has no attribute 'encode'
+2019-10-20 14:42:33,367 — main — INFO — Request from: 127.0.0.1
+2019-10-20 14:42:33,368 — u2bdownload — INFO — https://www.youtube.com/watch?v=YkgkThdzX-88
+2019-10-20 14:42:51,693 — u2bdownload — ERROR — format id: 136
+2019-10-20 14:42:51,693 — u2bdownload — ERROR — [0;31mERROR:[0m requested format not available
+2019-10-20 14:42:52,869 — u2bdownload — ERROR — format id: 137
+2019-10-20 14:42:52,870 — u2bdownload — ERROR — [0;31mERROR:[0m requested format not available
+2019-10-20 14:43:07,853 — main — INFO — Request from: 127.0.0.1
+2019-10-20 14:43:07,853 — u2bdownload — INFO — https://www.youtube.com/watch?v=YkgkThdzX-88
+2019-10-20 14:43:09,597 — u2bdownload — ERROR — format id: 136
+2019-10-20 14:43:09,597 — u2bdownload — ERROR — [0;31mERROR:[0m requested format not available
+2019-10-20 14:43:09,669 — u2bdownload — ERROR — format id: 137
+2019-10-20 14:43:09,671 — u2bdownload — ERROR — [0;31mERROR:[0m requested format not available
+2019-10-20 14:44:55,938 — main — INFO — Request from: 127.0.0.1
+2019-10-20 14:44:55,940 — u2bdownload — INFO — https://www.youtube.com/watch?v=YkgkThdzX-88
+2019-10-20 14:44:58,308 — u2bdownload — ERROR — format id: 18
+2019-10-20 14:44:58,308 — u2bdownload — ERROR — [0;31mERROR:[0m requested format not available
+2019-10-20 14:44:58,363 — u2bdownload — ERROR — format id: 137
+2019-10-20 14:44:58,363 — u2bdownload — ERROR — [0;31mERROR:[0m requested format not available
+2019-10-20 14:46:46,700 — main — INFO — Request from: 127.0.0.1
+2019-10-20 14:46:46,701 — u2bdownload — INFO — https://www.youtube.com/watch?v=YkgkThdzX-88
+2019-10-20 14:51:47,094 — main — INFO — Request from: 127.0.0.1
+2019-10-20 14:51:47,094 — u2bdownload — INFO — https://www.youtube.com/watch?v=YkgkThdzX-88
+2019-10-20 14:52:13,424 — main — INFO — Request from: 127.0.0.1
+2019-10-20 14:52:13,424 — u2bdownload — INFO — https://www.youtube.com/watch?v=YkgkThdzX-88
