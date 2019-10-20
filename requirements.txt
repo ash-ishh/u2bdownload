@@ -19,6 +19,7 @@ parse==1.8.4
 pyee==5.0.0
 pyppeteer==0.0.19
 pyquery==1.4.0
+python-dotenv==0.10.3
 requests==2.19.1
 requests-html==0.9.0
 six==1.11.0
@@ -28,4 +29,4 @@ w3lib==1.19.0
 websockets==5.0.1
 Werkzeug==0.14.1
 WTForms==2.2.1
-youtube-dl==2018.7.10
+youtube-dl==2019.10.16
