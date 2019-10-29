@@ -35,6 +35,20 @@ def index():
         nolinks = True if len(links) == 0 else False
     return render_template("index.html", form=form, links=links, nolinks=nolinks, name=name)
 
+@app.route('/<watch-v>',methods=["GET","POST"])
+def direct(watch-v):
+    form = LinkForm()
+    links = list()
+    name = None
+    nolinks = False
+
+    if len(watch-v) == 11 and any([i in "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ-_" for i in watch-v]):
+        logger.info(f"Request from: {request.remote_addr}")
+        session["url"] = "https://www.youtube.com/watch?v=" + watch-v
+        name, links = utube_dl.download(session.get("url"))
+        nolinks = True if len(links) == 0 else False
+    return render_template("index.html", form=form, links=links, nolinks=nolinks, name=name)
+
 @app.errorhandler(404)
 def page_not_found(e):
     return render_template("404.html"),404
