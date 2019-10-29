@@ -28,23 +28,15 @@ def index():
     name = None
     nolinks = False
 
-    if(form.validate_on_submit()):
+    if request.method == "GET":
+        videoid = request.args.get("v")
+        if len(videoid) == 11 and any([i in "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ-_" for i in videoid]):
+            logger.info(f"Request from: {request.remote_addr}")
+            name, links = utube_dl.download("https://www.youtube.com/watch?v=" + videoid)
+            nolinks = True if len(links) == 0 else False
+    elif (form.validate_on_submit()):
         logger.info(f"Request from: {request.remote_addr}")
         session["url"] = form.url.data
-        name, links = utube_dl.download(session.get("url"))
-        nolinks = True if len(links) == 0 else False
-    return render_template("index.html", form=form, links=links, nolinks=nolinks, name=name)
-
-@app.route('/<watch-v>',methods=["GET","POST"])
-def direct(watch-v):
-    form = LinkForm()
-    links = list()
-    name = None
-    nolinks = False
-
-    if len(watch-v) == 11 and any([i in "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ-_" for i in watch-v]):
-        logger.info(f"Request from: {request.remote_addr}")
-        session["url"] = "https://www.youtube.com/watch?v=" + watch-v
         name, links = utube_dl.download(session.get("url"))
         nolinks = True if len(links) == 0 else False
     return render_template("index.html", form=form, links=links, nolinks=nolinks, name=name)
