@@ -1,24 +1,58 @@
-## **u2bdownload** is a simple flask based website to extract video links of given URL
+# u2bdownload
+
+u2bdownload is a simple FastHTML-based web application designed to extract video links from a given URL.
+
+## Prerequisites
+
+- Python 3.6+
+
+## Installation and Setup
+
+### Option 1: Using [uv](https://docs.astral.sh/uv/)
+
+1. Install uv (if not already installed):
+   ```
+   pip install uv
+   OR
+   curl -LsSf https://astral.sh/uv/install.sh | sh
+   ```
+
+2. Run the application:
+   ```
+   uv run main.py
+   ```
+
+This will set up a virtual environment and run the application automatically.
 
 
-Steps to run it locally:
 
-1 - Create .env with SECRET_KEY
+### Option 2: Using pip
 
-Linux example: `echo "SECRET_KEY=$(openssl rand -base64 12)" >> .env`
+1. Create and activate a virtual environment:
 
-2 - Create and activate virtual envirnoment
+   **Linux/macOS:**
+   ```
+   python3 -m venv venv
+   source venv/bin/activate
+   ```
 
-Linux example
+   **Windows:**
+   ```
+   python -m venv venv
+   venv\Scripts\activate
+   ```
 
-`$ python3 -m venv venv`
+2. Install the required packages:
+   ```
+   pip install -r requirements.txt
+   ```
 
-`$ source bin/activate`
+3. Run the development server:
+   ```
+   python main.py
+   ```
 
-2 - Install requriements
+## TODO
 
-`(venv) $ pip install -r requirements.txt`
-
-3 - Run dev webserver
-
-`python app.py`
+- Add loader on URL submit
+- Add copy link option

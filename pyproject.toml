@@ -1,0 +1,14 @@
+[project]
+name = "u2bdownload"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "python-fasthtml>=0.4.5",
+    "pytubefix>=6.13.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
