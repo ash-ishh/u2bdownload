@@ -71,4 +71,5 @@ def post(url: str):
         return error_div
 
 
-fh.serve(port=8080)
+if __name__ == "__main__":
+    fh.serve(port=8080)

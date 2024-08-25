@@ -13,7 +13,9 @@ u2bdownload is a simple FastHTML-based web application designed to extract video
 1. Install uv (if not already installed):
    ```
    pip install uv
+   ```
    OR
+   ```
    curl -LsSf https://astral.sh/uv/install.sh | sh
    ```
 
@@ -56,3 +58,4 @@ This will set up a virtual environment and run the application automatically.
 
 - Add loader on URL submit
 - Add copy link option
+- Playlist link support
