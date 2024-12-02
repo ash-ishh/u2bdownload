@@ -16,7 +16,7 @@ packaging==24.1
 python-dateutil==2.9.0.post0
 python-dotenv==1.0.1
 python-fasthtml==0.4.5
-python-multipart==0.0.9
+python-multipart==0.0.18
 pytubefix==6.13.0
 pyyaml==6.0.2
 six==1.16.0
